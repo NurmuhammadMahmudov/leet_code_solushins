@@ -1,6 +1,6 @@
 import 'dart:math';
 
-import 'development_dart.dart';
+import '../development_dart.dart';
 
 const int mod = 1000000007;
 
