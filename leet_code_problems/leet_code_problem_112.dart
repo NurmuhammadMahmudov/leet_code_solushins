@@ -1,10 +1,5 @@
-class TreeNode {
-  int val;
-  TreeNode? left;
-  TreeNode? right;
-  TreeNode([this.val = 0, this.left, this.right]);
-}
 
+import 'tree_node.dart';
 bool hasPathSum(TreeNode? root, int targetSum) {
   bool deepFirstSearch(TreeNode? node, int currentSum) {
     if (node == null) return false;

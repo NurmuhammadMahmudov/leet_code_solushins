@@ -1,10 +1,5 @@
-class TreeNode {
-  int val;
-  TreeNode? left;
-  TreeNode? right;
-  TreeNode([this.val = 0, this.left, this.right]);
-}
 
+import 'tree_node.dart';
 int maxDepth(TreeNode? root) {
   if (root == null) return 0;
   int leftDepth = maxDepth(root.left);

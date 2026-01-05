@@ -1,12 +1,6 @@
 import 'dart:math';
 
-class TreeNode {
-  int val;
-  TreeNode? left;
-  TreeNode? right;
-  TreeNode([this.val = 0, this.left, this.right]);
-}
-
+import 'tree_node.dart';
 bool isBalanced(TreeNode? root) {
   int height(TreeNode? node){
     if(node==null) return 0;

@@ -1,10 +1,5 @@
-class TreeNode {
-  int val;
-  TreeNode? left;
-  TreeNode? right;
-  TreeNode([this.val = 0, this.left, this.right]);
-}
 
+import 'tree_node.dart';
 TreeNode? sortedArrayToBST(List<int> nums) {
   if (nums.isEmpty) return null;
   int mid = nums.length~/2;
